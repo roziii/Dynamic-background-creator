@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.main-nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.main-nav .main-nav__list {
+  list-style: none;
+}
+.main-nav .main-nav__list .main-nav__list {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.main-nav .main-nav__list .main-nav__list .main-nav__list-item .main-nav__list-item a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.scc.map */
